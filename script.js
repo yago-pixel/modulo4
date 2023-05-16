@@ -22,3 +22,4 @@ function resetCountdown() {
   count_down = new Date(`${date_end} 00:00:00`).getTime();
   x = setInterval(() => countDown(), second);
 }
+

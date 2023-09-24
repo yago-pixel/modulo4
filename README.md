@@ -1,12 +1,56 @@
-# modulo4
+# My JavaScript Code Quiz
 
-This is the JavaScript Assignment finish. This is the link from GITHUB : git@github.com:yago-pixel/modulo4.git This is the link to navegate on website :     https://github.com/yago-pixel/modulo4.git 
+## Description
+Welcome to my JavaScript Code Quiz. This Quiz will test your basic knowledge on JavaScript. It is a timed quiz, on which you can get a score, 
+the more questions you answer right, the higher you score will be, obviously! The development of this app deepened my knowledge in using Web APIs,
+but also the combination of JavaScript, HTML and CSS in one application.
+Have fun testing you knowledge in JavaScript!
 
-This project I'll show you the best quiz as quality and a such design.
-I put a lot of my knowledge increase on javascript getting more ability with multiple choices about any topics.
+Here is a link to the Code Quiz: [Link to Code Quiz](https://github.com/yago-pixel/modulo4.git)
 
-Fifa World Cup is a best plan to choose because envolve a lot of peoples on the world, with this idea I can put more people to play this quiz and then more marketing about my future company.
+## Usage
+To start the Quiz, you can simply press the "Start quiz"-button:
 
-Best Regards,
+![start-quiz]
 
-Lira, Yago.
+On the top right, you will see a timer of 75 seconds starting - This is the time you will have to answer all the questions.
+
+![timer]
+
+
+On the top left, you can see a link to the view high scores page, which will allow you to see your saved highscores. (the go back button will just redirect you to the starting page, so I would not recommend going on the highscores page, while completing the quiz)
+
+![view-high-scores]
+
+
+First, you are presented with the first question and four answer possibilities. All questions follow the same scheme.
+
+![question-and-answers]
+
+If you click on one of the answers you are directed to the next question and under the answer you will see, if you answered "Correct!" or "Wrong!".
+
+![correct]
+
+![wrong]
+
+Warning! Each time you answer a question incorrectly, 10 seconds of the timer will be deducted, which is also your score.
+
+After you answered all the questions, you see a form and your final score. 
+
+![initials-and-score]
+
+You can submit your initials and will land on the highscore page, which will show a list of your saved scores and your Initials next to them.
+
+![highscores]
+
+You have two options, to either go back to the starting page or clear your score and go back after.
+
+![go-back]
+
+Enjoy!
+
+## Credits
+N/A
+
+## License
+MIT Licensed Product

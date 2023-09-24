@@ -1,0 +1,123 @@
+:root{
+    --darkViolet: rgb(68, 13, 90);
+    --white: rgba(255, 255, 255, 0.919);
+    --heliotrope: rgb(235, 35, 241);
+    --lightGrey: rgba(153, 143, 143, 0.919);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    color: var(--heliotrope);
+    text-decoration: none;
+}
+
+header a:hover{
+    color: var(--darkViolet);
+}
+
+
+h1{
+    font-size: 3rem;
+}
+
+.question-section{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.quiz-description {
+    font-size: 2rem;
+}
+
+.questions {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.start-button {
+    background-color: var(--darkViolet);
+    color: var(--white);
+    border-radius: 12px;
+    padding: 0.5rem 2.5rem;
+    font-size: 2rem;
+}
+
+.question-buttons {
+    background-color: var(--darkViolet);
+    color: var(--white);
+    border-radius: 12px;
+    padding: 0.5rem 2.5rem;
+    font-size: 2rem;
+    margin: 1rem;
+    align-self: flex-start;
+    width: 13em;
+    text-align: left;
+}
+
+.answer-result {
+    font-style: italic;
+    font-size: 2rem;
+    align-self: flex-start;
+    color: var(--lightGrey);
+    border-top: 1px solid var(--lightGrey);
+    padding-right: 10em;
+}
+
+.submit-button {
+    background-color: var(--darkViolet);
+    color: var(--white);
+    border-radius: 12px;
+    padding: 0.5rem 2.5rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.ending {
+    font-size: 2rem;
+}
+
+
+button:hover {
+    background-color: var(--heliotrope);
+}
+
+.end-heading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+.high-score-section{
+   flex-grow:stretch;
+   font-size: 3rem;
+   white-space:none;
+}
+
+#high-scores {
+    background-color: var(--lightGrey);
+}

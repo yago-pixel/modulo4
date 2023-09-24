@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Highscores</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">High scores</h1>
+    </header>
+
+    <main>
+        <section class="high-score-section">
+            <ol id="high-scores"></ol>
+            <a  href="../index.html"><button class="start-button">Go back</button></a>
+            <button class="start-button" id="clear-high-score">Clear high scores</button>
+        </section>
+    </main>
+
+    <script>
+        // create the necessary variables for this html to parse the highscores and initials and to clear the highScores by clicking the clear highscores button 
+        var highScoresList = document.getElementById("high-scores");
+        var highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+        var clearHighScores = document.getElementById("clear-high-score");
+
+        // creates listItems for each highscore with initials
+        highScores.forEach(function (score) {
+            var listItem = document.createElement("li");
+            listItem.setAttribute("class", "")
+            listItem.textContent = score.initials + " - " + score.score;
+            highScoresList.appendChild(listItem);
+        });
+
+       // listens for click on clear High scores button and removes the list of high scores
+        clearHighScores.addEventListener("click", function(){
+        localStorage.removeItem("highScores");
+
+        highScoresList.innerHTML = "";
+        });
+
+
+    </script>
+   
+</body>
+</html>

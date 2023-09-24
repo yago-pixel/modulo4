@@ -6,7 +6,7 @@ the more questions you answer right, the higher you score will be, obviously! Th
 but also the combination of JavaScript, HTML and CSS in one application.
 Have fun testing you knowledge in JavaScript!
 
-Here is a link to the Code Quiz: [Link to Code Quiz] (file:///C:/Users/yagol/OneDrive/%C3%81rea%20de%20Trabalho/assignments/modulo4/index.html)
+Here is a link to the Code Quiz: [Link to Code Quiz](file:///C:/Users/yagol/OneDrive/%C3%81rea%20de%20Trabalho/assignments/modulo4/index.html)
 
 ## Usage
 To start the Quiz, you can simply press the "Start quiz"-button:
